@@ -52,3 +52,8 @@ public:
     bool IsEmpty() const;
     bool Contains(const Point&) const;
 };
+
+class Window {
+public:
+    void DrawRect(int, int, int, int);
+};
